@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Kamu 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- MUSIC -->
+<audio id="music" loop>
+  <source src="assets/music/lagu.mp3">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+<!-- BACKGROUND -->
+<div class="stars"></div>
+
+<!-- MOON -->
+<div class="moon" onclick="clickMoon()">🌙</div>
+
+<!-- HOME -->
+<section id="home" class="center">
+  <h1 id="typing"></h1>
+  <button onclick="startStory()">Mulai 💖</button>
+</section>
+
+<!-- LETTER -->
+<section id="letter" class="hidden card">
+  <h2>💌 Untuk Kamu</h2>
+  <p id="message"></p>
+  <button onclick="showGallery()">Lihat Kenangan 📸</button>
+</section>
+
+<!-- GALERI -->
+<section id="gallery" class="hidden">
+  <h2>Kenangan Kita 💖</h2>
+  <div class="photos">
+    <img src="assets/photos/foto1.jpg">
+    <img src="assets/photos/foto2.jpg">
+    <img src="assets/photos/foto3.jpg">
+  </div>
+</section>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>Aku sayang kamu 🤍</h2>
+    <button onclick="closePopup()">❤️</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
