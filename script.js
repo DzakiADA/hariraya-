@@ -76,3 +76,6 @@ window.closePopup = function () {
 };
 
 });
+document.getElementById("startBtn").addEventListener("click", function () {
+  startStory();
+});
